@@ -1,7 +1,7 @@
 # FinalHomework
 Homework on Stacks and Queues
 ## Objective
-Use the `GeneralList.hpp` from the last homework to implement a Queue in `GeneralQueue.hpp` and a Stack in `GeneralStack.hpp`. The function prototypes have been provided as well as a bit of functions. Most of methods in the Queue and Stack classes will be calling the appriate method from `GeneralList.hpp`. In the images below, all of these can be done with a doubly linked list with `push_front`, `push_back`, `pop_front`, and `pop_back` (this is a hint).
+Use the `GeneralList.hpp` from the **LAST HOMEWORK** to implement a Queue in `GeneralQueue.hpp` and a Stack in `GeneralStack.hpp`. The function prototypes have been provided as well as a bit of functions. Most of methods in the Queue and Stack classes will be calling the appriate method from `GeneralList.hpp`. In the images below, all of these can be done with a doubly linked list with `push_front`, `push_back`, `pop_front`, and `pop_back` (this is a hint).
 ## Adding to a stack
 ![Pushing to a stack](StackPush.png)
 
