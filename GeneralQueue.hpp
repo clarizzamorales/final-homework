@@ -40,14 +40,5 @@ class Queue {
 		}
 
 		template <class U>
-		friend std::ostream &operator<<(std::ostream &out, 
-				const Queue<U> &q);
-
-		template <class U>
-		friend bool operator==(const Queue<U> &left_queue, 
-				const Queue<U> &right_queue);
-
-		template <class U>
-		friend bool operator!=(const Queue<U> &left_queue, 
-				const Queue<U> &right_queue);
+		friend std::ostream &operator<<(std::ostream &out, const Queue<U> &q);
 };
