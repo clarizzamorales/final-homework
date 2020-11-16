@@ -41,9 +41,5 @@ class Stack {
 
 		template <class S>
 		friend std::ostream &operator<<(std::ostream &out, const Stack<S> &stack);
-		template <class S>
-		friend bool operator==(const Stack<S> &left_side, const Stack<S> &right_side);
-		template <class S>
-		friend bool operator!=(const Stack<S> &left_side, const Stack<S> &right_side);
 
 };
