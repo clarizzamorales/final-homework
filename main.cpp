@@ -7,6 +7,7 @@ int main() {
 	std::cout << "Creation of a highest to lowest stack" << std::endl;
 
 	Stack<double> s;
+	
 	if(s.empty()) {
 		std::cout << "The list is empty!" << std::endl;
 	}
@@ -17,7 +18,7 @@ int main() {
 	s.push(8.03);
 	s.push(9.12);
 
-	std::cout << std::endl << s << std::endl;
+//	std::cout << std::endl << s << std::endl;
 	std::cout << "Top of the stack: " << s.top() << std::endl;
 
 	Stack<double> s2(s);
@@ -45,7 +46,7 @@ int main() {
 	quoi.enqueue(21);
 	std::cout << "Front of queue: " << quoi.front();
 	std::cout << ", back of queue: " << quoi.back() << std::endl;
-	std::cout << quoi << std::endl;
+//	std::cout << quoi << std::endl;
 
 	int search_term = 24;
 	if(quoi.search(search_term)) {
